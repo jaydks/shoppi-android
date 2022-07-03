@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 32 // 이 버전으로 컴파일하겠다. 보통 targetSDK와 일치시킴. 이 둘은 최신 버전 중 가장 안정적인 버전으로 지정해서 출시하게 됨
+    compileSdk 31 // 이 버전으로 컴파일하겠다. 보통 targetSDK와 일치시킴. 이 둘은 최신 버전 중 가장 안정적인 버전으로 지정해서 출시하게 됨
 
     defaultConfig {
         applicationId "com.shoppi.app" // 프로젝트 생성시 지정한 패키지 이름
         minSdk 21 // 최소 버전 // SDK : software development kit. 안드로이드에서 제공
-        targetSdk 32 // 해당 버전까지 안정적으로 테스트했음을 의미
+        targetSdk 31 // 해당 버전까지 안정적으로 테스트했음을 의미
         versionCode 1
         versionName "1.0"
 
@@ -33,7 +33,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img_pdp_top_01
+id button
+id iv_product_detail_image
+id iv_product_thumbnail
+id textView
+id toolbar_product_detail
+id tv_product_detail_image_title
+id tv_product_discount_price
+id tv_product_discount_rate
+id tv_product_price
+id tv_product_product_name
+id tv_productl_brand_name
+id view_divider_product
+layout activity_main
+layout activity_product_detail
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string description_product_detail_image
+string description_product_detail_thumbnail
+string title_product_detail_image
+style Theme.Shoppiandroid

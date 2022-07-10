@@ -1,4 +1,4 @@
-#Sun Jul 03 13:40:50 KST 2022
+#Fri Jul 08 01:15:43 KST 2022
 base.2=C\:\\Users\\jeong\\AndroidStudioProjects\\shoppi-android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 path.2=8/classes.dex
 base.1=C\:\\Users\\jeong\\AndroidStudioProjects\\shoppi-android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

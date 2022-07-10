@@ -9,7 +9,7 @@
         android:targetSdkVersion="31" />
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,14 +19,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.Shoppiandroid" >
         <activity
-            android:name="com.shoppi.app.MainActivity"
-            android:exported="true" >
+            android:name="com.shoppi.app.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Shoppiandroid.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.shoppi.app.MainActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -24,6 +24,7 @@ class HomeFragment : Fragment(){
         button.setOnClickListener {
             val transaction = parentFragmentManager.beginTransaction()
             transaction.add(R.id.container_main, ProductDetailFragment())
+            transaction.commit()
         }
     }
 
